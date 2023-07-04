@@ -68,6 +68,7 @@ class Chat extends StreamlitComponentBase {
       return css``
     })
 
+    console.log(isUser)
     return (
       <Chat isUser={isUser}>
         <Avatar src={ isUser ? "https://placehold.co/100x100" : "https://placehold.co/100x100/000000/FFF" } alt="profile" draggable="false"/>
